@@ -18,8 +18,8 @@ end
 #src[row_index][element_index].join 
 #new_array << src[row_index][element_index] 
 #new_array.join 
-src[row_index][element_index].join 
 row_index += 1 
+src[row_index][element_index].join 
 end 
 new_array 
 end 
