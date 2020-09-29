@@ -9,15 +9,11 @@ def join_nested_strings(src)
     
     while element_index < src[row_index].count do 
       if src[row_index][element_index].instance_of? String
-        #src[row_index][element_index].class == String 
-        #src[row_index][element_index].join 
          new_array << src[row_index][element_index] + ' '
-  end
-  element_index += 1 
 end
-#src[row_index][element_index].join 
-#new_array << src[row_index][element_index] 
-#new_array.join 
+element_index += 1 
+  
+end
 row_index += 1 
 
 end 
