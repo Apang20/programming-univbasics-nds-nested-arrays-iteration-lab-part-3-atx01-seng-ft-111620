@@ -8,12 +8,13 @@ def join_nested_strings(src)
     element_index = 0 
     
     while element_index < src[row_index].count do 
-      if src[row_index][element_index].class == String 
-         #new_array << src[row_index][element_index] 
+      if src[row_index][element_index].instance_of? String
+        #src[row_index][element_index].class == String 
+         new_array << src[row_index][element_index] 
   end
   element_index += 1 
 end
-new_array << src[row_index][element_index] 
+#new_array << src[row_index][element_index] 
 row_index += 1 
 end 
 new_array 
