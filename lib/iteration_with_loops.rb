@@ -10,7 +10,7 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do 
       if src[row_index][element_index].instance_of? String
         #src[row_index][element_index].class == String 
-         new_array << src[row_index][element_index] 
+         new_array << src[row_index][element_index].join 
   end
   element_index += 1 
 end
