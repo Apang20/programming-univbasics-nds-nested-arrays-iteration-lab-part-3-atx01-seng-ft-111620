@@ -19,7 +19,7 @@ end
 #new_array << src[row_index][element_index] 
 #new_array.join 
 row_index += 1 
-src[row_index][element_index].join 
+
 end 
-new_array 
+new_array.join 
 end 
