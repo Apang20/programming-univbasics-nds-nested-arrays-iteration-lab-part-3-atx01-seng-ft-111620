@@ -16,7 +16,7 @@ def join_nested_strings(src)
 end
 #src[row_index][element_index].join 
 #new_array << src[row_index][element_index] 
-new_array +=
+new_array.join 
 row_index += 1 
 end 
 new_array 
